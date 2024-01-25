@@ -243,7 +243,7 @@ _proxy_libintl_deinit (void)
 
 #define IMPLEMENT(fn, parlist, parlist2)	\
 char *						\
-g_libintl_ ## fn parlist			\
+libintl_ ## fn parlist				\
 {						\
   setup ();					\
   return p_##fn parlist2;			\
